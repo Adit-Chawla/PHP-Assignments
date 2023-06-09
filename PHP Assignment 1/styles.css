@@ -1,0 +1,143 @@
+body{
+  margin: 0;
+  background: linear-gradient(to right, #a8c0ff, #3f2b96);
+}
+  
+header {
+  background-color: darkblue;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+header img {
+  border-radius: 15px;
+  border: 2px solid black;
+}
+  
+header h1 {
+  color: antiquewhite;
+  font-size: 3vw;
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+  letter-spacing: 0.05em;
+  word-spacing: 0.3em;
+}
+
+h2{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+nav > a {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: large;
+  margin-top: 20px;
+  color: antiquewhite;
+  padding: 20px;
+  margin-right: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+  
+nav > a:hover {
+  color: red;
+}
+  
+  
+footer {
+  background-color: #f55a4e;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+  
+
+.form-container {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: white;
+}
+  
+.form-container label {
+  font-family: Arial, sans-serif;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+  
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+
+.form-container label[for="topping4"] {
+  margin-left: 20px;
+}
+  
+.form-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+  
+.form-container .toppings-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+  
+.form-container .toppings-container label {
+  margin-bottom: 0px;
+}
+  
+.form-container .special-instructions-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-container .special-instructions-container label{
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+input[type="checkbox"] {
+  margin-right: 15px;
+}
+
+input[type="submit"] {
+  background: linear-gradient(to right, #3f2b96, #a8c0ff);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+  
+input[type="submit"]:hover {
+  background: linear-gradient(to right, #a8c0ff, #3f2b96);
+}
